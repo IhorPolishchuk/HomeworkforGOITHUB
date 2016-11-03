@@ -1,16 +1,19 @@
 
-
-.Head  {
+/* HEADER */
+.Head {
 	padding-top: 2%;
 	text-align: center;
 	font-size: 2.0em; 
 	margin-bottom: 2%;
+	font-weight: bold;
 }
 
 .MainImage {
 	height: 200px;
 	margin-left: 43%;
 }
+
+/* CONTENT */
 
 p {
 	margin-left: 30%;
