@@ -1,0 +1,38 @@
+
+
+.Head  {
+	padding-top: 2%;
+	text-align: center;
+	font-size: 2.0em; 
+	margin-bottom: 2%;
+}
+
+.MainImage {
+	height: 200px;
+	margin-left: 43%;
+}
+
+p {
+	margin-left: 30%;
+	font-size: 1.2em;
+}
+
+hr {
+	color: #414347;
+	width: 42%;
+}
+
+.LIST {
+	margin-left: 30%;
+}
+
+ul {
+	margin-left: 30%;
+	font-size: 1.2em;
+	line-height: 1.5em; 
+}
+
+
+a {
+	margin-left: 30%;
+}
