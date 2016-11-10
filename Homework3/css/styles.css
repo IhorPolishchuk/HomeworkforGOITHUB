@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+BODY {
+    margin: 5% 3%
+}
+
+
+/* HEADER */
+
+.LOGO {
+    clear: both;
+    margin-bottom: 2.5%;
+}
+
+.Parent {
+    text-align: center;
+    margin-bottom: 2.5%;
+    position: relative;
+    overflow: hidden;
+}
+
+.Parent ul {
+    display: inline-block;
+    width: 100%;
+      background: #5C5C5C;
+}
+
+.Parent ul li {
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+
+ .Parent ul li a {
+    display: block;
+    text-decoration: none;
+    width: 110px;
+    color: #fff;
+}
+
+.Parent ul li:hover {
+    background-color: #444444;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+
+
+/* SIdeBAR */
+
+.SideBar {
+  float: left;
+  margin-right: 50px;
+}
+
+.SideBar ul {
+text-align: left;
+}
+
+.SideBar ul li {
+  width: 190px;
+  line-height: 40px;
+  padding-left: 25px;
+  border: 1px solid silver;
+  border-bottom: none;
+}
+
+.SideBar ul:last-child {
+  border-bottom: 1px solid silver;
+}
+
+.SideBar ul li a {
+  text-decoration: none;
+  color: #656363;
+}
+
+.SideBar ul li:hover {
+  background: #f9f9f9;
+}
+
+/* Content */
+
+.Content {
+  image-orientation: left;
+}
+
+.Content p {
+  margin-left: 21%;
+  margin-right: 20%;
+  margin-top: 3%;
+}
+
+
+
+/* Footer */
+
+.Footer {
+  text-align: center;
+  margin-top: 2.5%;
+  clear: both;
+}
+
+.Footer ul {
+    display: inline-block;
+    width: 100%;
+    background: #e1e1e1;
+    margin-top: 5%;
+}
+
+.Footer ul li {
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+
+.Footer ul li a {
+    display: block;
+    text-decoration: none;
+    width: 110px;
+    color: black;
+}
+
+.Footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.Footer ul li:last-child {
+  float:  right;
+  padding-right: 2%;
+}

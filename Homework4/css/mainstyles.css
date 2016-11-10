@@ -1,0 +1,166 @@
+BODY {
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+}
+
+.Container {
+    width: 1000px;
+    height: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+
+/* HEADER */
+
+.LOGO {
+    margin: 2% 0 0 3%;
+}
+
+.Contacts {
+    float: right;
+    margin: 1% 3% 0 0;
+    color: #128aa7;
+}
+
+.Contacts::first-line {
+    font-weight: bold;
+}
+
+.countries {
+    clear: right;
+    float: right;
+    margin: 2% 2% 0 0;
+}
+
+.countries img {
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.countries img:hover {
+    background-color: #e3e5e8;
+}
+
+.BEACHIMAGE {
+    width: 100%;
+}
+
+
+/*HEADER MENU*/
+
+.wrapper {
+    width: 100%;
+    background-color: #343434;
+}
+
+.wrapper .header img {
+    margin-left: 3px;
+}
+
+ul.header {
+    display: block;
+}
+
+ul.header::after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.header li {
+    float: left;
+    position: relative;
+    margin-left: 6%;
+    line-height: 40px;
+}
+
+ul.header li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+ul.header li a:hover {
+    background-color: grey;
+}
+
+ul.dropdown {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 39px;
+    background-color: #343434;
+}
+
+ul.dropdown li {
+    display: block;
+}
+
+ul.dropdown li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #343434;
+    text-decoration: none;
+}
+
+ul.header li:hover ul.dropdown {
+    display: block;
+    z-index: 5;
+}
+
+
+/* CONTENT */
+
+.Fon {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.LeftSide {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: #edeef0;
+    text-align: center;
+    line-height: 20px;
+}
+
+.RightSide {
+    width: 20%;
+    height: 100%;
+    float: right;
+    background: #edeef0;
+    text-align: center;
+    line-height: 20px;
+}
+
+.MiddleSide {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.LeftSide::first-line {
+    font-weight: bold;
+}
+
+.RightSide::first-line {
+    font-weight: bold;
+}
+
+
+/*Footer*/
+
+.Footer {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2%;
+}
