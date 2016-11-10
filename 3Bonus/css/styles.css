@@ -1,0 +1,66 @@
+BODY {
+    background-image: url('../img/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+/* HEADER */
+
+.LOGO {
+    margin: 8% 0 0 5%;
+    position: absolute;
+    z-index: 9999;
+}
+
+.PalmTree {
+    margin: 2.5% 0 0 15%;
+    position: relative;
+}
+
+.ContuctUs {
+    color: #fff;
+    float: right;
+    margin: 9% 5% 0 0;
+    display: block;
+}
+
+
+/* CONTENT */
+
+.Wrapper {
+    margin-left: 12%;
+    float: left;
+    display: block;
+}
+.Wrapper:after {
+  content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.ContentImages {
+    width: 22%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    display: inline-block;
+    text-align: center;
+    clear: both;
+}
+
+.Wrapper figcaption {
+    color: #fff;
+}
+
+
+/*FOOTER*/
+
+.Bottom {
+  text-align: center;
+  margin-top: 42%;
+  margin-bottom: 3%;
+  color: #fff;
+}
