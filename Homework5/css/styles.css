@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+body {
+    background: url(../img/mainBackgroundImage.png);
+    background-size: cover;
+}
+
+
+/* HEADER */
+
+.backgroundTopMenu {
+    width: 100%;
+}
+
+.backgroundTopMenu ul {
+    line-height: 35px;
+    margin-right: 2%;
+    display: block;
+}
+
+.backgroundTopMenu ul li {
+    float: right;
+    width: auto;
+    text-align: center;
+}
+
+.backgroundTopMenu ul li a {
+    text-decoration: none;
+    color: #60b5ed;
+    padding: 15px;
+}
+
+.backgroundTopMenu .MenuImage {
+    padding-top: 3px;
+    padding-right: 5px;
+}
+
+.backgroundTopMenu ul li:hover {
+    background: #4eabda;
+}
+
+.backgroundTopMenu ul li a:hover {
+    color: #fff;
+}
+
+.backgroundTopMenu .backgroundTopMenu-3rdLI {
+    border-right: 1px solid silver;
+}
+
+
+/* CONTAINER */
+
+.backgroundImageContainer {
+    position: absolute;
+    background: url(../img/backgroundImageContainer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.backgroundImageContainer form {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40%;
+    height: 90%;
+    max-height: 100%;
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+.backgroundImageContainer p {
+    line-height: 55px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.backgroundImageContainer form .backgroundImageContainer-textArea {
+    background-color: #0f0f0f;
+    display: block;
+    margin: 3% auto;
+    width: 50%;
+    line-height: 30px;
+    border: none;
+    color: #fff;
+}
+
+.backgroundImageContainer form .backgroundImageContainer-textArea:hover {
+    box-shadow: 0px 0px 5px 4px rgba(70, 130, 170, 0.79);
+    background-color: #1b5288;
+}
+
+.backgroundImageContainer-Wrapper_for_facebook_ouLine {
+    padding: 3%;
+}
+
+.backgroundImageContainer-faceBookButton {
+    margin: auto;
+    box-sizing: content-box;
+    padding-right: 45px;
+    height: 35px;
+    background: none;
+    border: none;
+    display: block;
+    background-size: 35px 35px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    color: white;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 50%;
+    border-bottom: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    text-shadow: rgba(0, 0, 0, .5) -1px -1px 0;
+    border-color: #2d5073;
+    background-color: #3b5998;
+    background-image: url(../img/facebook-icon.png);
+    overflow: hidden;
+}
+
+.backgroundImageContainer .ouLine {
+    padding: 2%;
+    text-align: center;
+    color: #999999;
+    font-family: sans-serif;
+}
+
+.backgroundImageContainer .ouLine img {
+    max-width: 100%;
+}
+
+input[placeholder] {
+    padding-left: 2%;
+}
+
+.backgroundImageContainer-CheckBox {
+    text-align: center;
+    color: #cccccc;
+    font-family: sans-serif;
+}
+
+.backgroundImageContainer-Button_CreatemyAccount {
+    padding: 10px;
+    display: block;
+    margin: 3% auto;
+    box-sizing: content-box;
+    background-color: #4eabda;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.backgroundImageContainer-bottomRights {
+    text-align: center;
+    color: #cccccc;
+    font-size: 0.8em;
+    line-height: 15px;
+    width: 70%;
+    margin: auto;
+    font-family: sans-serif;
+}

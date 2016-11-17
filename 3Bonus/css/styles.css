@@ -8,23 +8,27 @@ BODY {
 
 /* HEADER */
 
-.LOGO {
-    margin: 8% 0 0 5%;
-    position: absolute;
-    z-index: 9999;
+.wrapper-header {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 3%;
 }
 
-.PalmTree {
-    margin: 2.5% 0 0 15%;
-    position: relative;
+.wrapper-header-logo , .wrapper-header-contacts {
+  width: 50%;
+  float: left;
 }
 
-.ContuctUs {
-    color: #fff;
-    float: right;
-    margin: 9% 5% 0 0;
-    display: block;
+.wrapper-header-contacts {
+  color: white;
+  text-align: right;
 }
+
+.wrapper-header-logo img {
+  max-width: 100%;
+}
+
 
 
 /* CONTENT */
