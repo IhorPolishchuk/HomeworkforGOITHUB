@@ -1,15 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Wheels Store</title>
-</head>
-<body>
 
-<img src="img/head_logoimg.png" alt="ZAZOR_LOGO" class="logoImage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Wheels Store</title>
+</head>
+
+<body>
+    <div class="siteContainer">
+        <div class="headerWrapper">
+            <div class="Contacts">
+                <img src="img/telephone_img.png" alt="TELEPHONE"> (044)123-45-67 (044)567-89-10
+            </div>
+            <div class="headerWrapper_Wrapper_Navigation_logForm">
+                <form action="#" class="headerWrapper_logForm">
+                    <input type="text" name="Login" placeholder="логин">
+                    <input type="password" name="Password" placeholder="пароль"> вход | регистрация
+                    <a href="#">забыли пароль?</a>
+                </form>
+
+                <div class="wrapperFor_navigationMenu_navigationMenu_form">
+                    <a href="#"><img src="img/Navigation_Menu_Home.png" alt="HOME"></a>
+                    <a href="#"><img src="img/Navigation_Menu_Map.png" alt="MAP"></a>
+                    <a href="#"><img src="img/Navigation_Menu_Letter.png" alt="LETTER"></a>
+                </div>
+            </div>
+        </div>
+
+        <img src="img/head_logoimg.png" alt="ZAZOR_LOGO" class="logoImage">
+        <ul class="MainMenu">
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Оплата</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Статьи</a></li>
+            <li><a href="#">Контакты</a></li>
+            <img src="img/MainMenu_buyitem.png" alt="BUYITEM">
+            <div class="MainMenu_text">товаров: <a href="#">0</a></div>
+        </ul>
+        <div class="main_Headforms">
+            <div class="wrapper_forFirstHeadForm">
+
+                <form action="#" class="firstHeadForm">
+                    <div class="HeadForm_titles">Поиск по автомобилю</div>
+                    <ul>
+                        <span class="HeadForm_titles">Диски</span>
+                        <li>
+                            Марка(авто):
+                            <select name="Marks">
+      <option value="Fiat">Fiat</option>
+      <option value="Wolkswagen">Wolkswagen</option>
+      <option value="Citroen">Citroen</option>
+    </select>
+                        </li>
+                        <li>Модель(авто):
+                            <select name="Model">
+      <option value="S-класс">S-класс</option>
+      <option value="Е-класс">Е-класс</option>
+      <option value="М-класс">М-класс</option>
+    </select>
+                        </li>
+                        <li>Год Выпуска(авто):
+                            <select name="Year Production">
+      <option value="1997">1997</option>
+      <option value="1998">1998</option>
+      <option value="1999">1999</option>
+      <option value="2000">2000</option>
+    </select>
+                        </li>
+                        <li>Комплектация:
+                            <select name="Complactation">
+        <option value="Full">Полная</option>
+      </select>
+                        </li>
+                    </ul>
+
+
+                    <ul>
+                        <span class="HeadForm_titles">Шины</span>
+                        <li>
+                            Марка(авто):
+                            <select name="Marks">
+      <option value="Fiat">Fiat</option>
+      <option value="Wolkswagen">Wolkswagen</option>
+      <option value="Citroen">Citroen</option>
+                            </select>
+                        </li>
+                        <li>Модель(авто):
+                            <select name="Model">
+      <option value="S-класс">S-класс</option>
+      <option value="Е-класс">Е-класс</option>
+      <option value="М-класс">М-класс</option>
+                            </select>
+                        </li>
+                        <li>Год Выпуска(авто):
+                            <select name="Year Production">
+      <option value="1997">1997</option>
+      <option value="1998">1998</option>
+      <option value="1999">1999</option>
+      <option value="2000">2000</option>
+                            </select>
+                        </li>
+                        <li>Комплектация:
+                            <select name="Disc Complactation">
+      <option value="Full">Полная</option>
+      </select>
+                        </li>
+                    </ul>
+                    <div class="searchButton"><a href="#">Поиск...</a></div>
+                </form>
+            </div>
+            <div class="wrapper_forSecondHeadForm">
+                <form action="#" class="secondHeadForm">
+                    <div class="HeadForm_titles_second">Поиск колес</div>
+                    <ul>
+                        <li>Размер:
+                            <select name="Size">
+          <option value="140">140 см</option>
+          <option value="135">135 см</option>
+          <option value="130">130 см</option>
+          <option value="125">125 см</option>
+        </select> /
+                            <select name="Size 2">
+          <option value="Литый">Литый</option>
+      </select>
+                        </li>
+
+                        <li>R:
+                            <select name="Radius">
+            <option value="12-14">12-14</option>
+            <option value="15-17">15-17</option>
+            <option value="18-20">18-20</option>
+          </select>
+                        </li>
+
+                        <li>Сезон:
+                            <div>
+                                <label>
+          <input type="radio" name="Season">
+          Зима
+          </label>
+                            </div>
+
+                            <div>
+                                <label>
+              <input type="radio" name="Season">
+              Лето
+            </label>
+                            </div>
+
+                            <div>
+                                <label>
+          <input type="radio" name="Season">
+          Всесезон
+          </label>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>ДЦО:
+                            <select name="ДЦО">
+            <option value="12">12</option>
+            <option value="14">14</option>
+            <option value="16">16</option>
+          </select>
+                        </li>
+                        <li>ЕТ:
+                            <select name="ЕТ">
+            <option value="12">12</option>
+            <option value="10">10</option>
+            <option value="8">8</option>
+          </select>
+                        </li>
+                        <li>Материал:
+                            <div>
+                                <label>
+          <input type="radio" name="Material">
+          Резина
+          </label>
+                            </div>
+
+                            <div>
+                                <label>
+              <input type="radio" name="Material">
+              Каучук
+            </label>
+                            </div>
+
+                            <div>
+                                <label>
+          <input type="radio" name="Material">
+          Смесь
+          </label>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="searchButton2"><a href="#">Поиск...</a></div>
+                </form>
+            </div>
+        </div>
+        <div class="Clear"> </div>
+
+        <div class="mainContent_wrapper">
+            <div class="leftSide_Menu">
+                <img src="img/leftSideMenu_img1.png" alt="TITLE" class="leftSide_Menu_mainTitle">
+                <ul>
+                    <p class="leftSide_Menu_Titles"><img src="img/leftSideMenu_img2.png" alt="Wheels">Шины</p>
+                    <li><a href="#">Наименование 1</a></li>
+                    <li><a href="#">Наименование 1</a></li>
+                    <li><a href="#">Наименование 1</a></li>
+                    <li><a href="#">Наименование 1</a></li>
+                </ul>
+                <ul>
+                    <p class="leftSide_Menu_Titles"><img src="img/leftSideMenu_img2.png" alt="Discs">Диски</p>
+                    <li><a href="#">Наименование 2</a></li>
+                    <li><a href="#">Наименование 2</a></li>
+                    <li><a href="#">Наименование 2</a></li>
+                    <li><a href="#">Наименование 2</a></li>
+                </ul>
+                <ul>
+                    <p class="leftSide_Menu_Titles"><img src="img/leftSideMenu_img2.png" alt="DETAILS" >Болты</p>
+                    <li><a href="#">Наименование 3</a></li>
+                    <li><a href="#">Наименование 3</a></li>
+                    <li><a href="#">Наименование 3</a></li>
+                    <li><a href="#">Наименование 3</a></li>
+                </ul>
+            </div>
+
+            <div class="middleSide_sellingItems">
+                <div class="sellingItems_row1">
+                    <figure class="sellingItems">
+                        <figcaption class="overTitle_for_Figure">Goodyear</figcaption>
+                        <a href="#"><img src="img/middleSellingItems_img1.png" alt="GoodYear"></a>
+                        <figcaption class="underTitle_for_Figure">90.00 грн.</figcaption>
+
+                    </figure>
+                    <figure class="sellingItems">
+                        <figcaption class="overTitle_for_Figure">Nokian</figcaption>
+                        <a href="#"><img src="img/middleSellingItems_img2.png" alt="Nokian"></a>
+                        <figcaption class="underTitle_for_Figure">115.00 грн.</figcaption>
+
+                    </figure>
+                    <figure class="sellingItems">
+                        <figcaption class="overTitle_for_Figure">Hankook</figcaption>
+                        <a href="#"><img src="img/middleSellingItems_img3.png" alt="Hankook"></a>
+                        <figcaption class="underTitle_for_Figure">393.00 грн.</figcaption>
+
+                    </figure>
+                </div>
+                <div class="Clear"></div>
+                <div class="sellingItems_row2">
+                    <figure class="sellingItems">
+                        <figcaption class="overTitle_for_Figure">Goodyear</figcaption>
+                        <a href="#"><img src="img/middleSellingItems_img1.png" alt="GoodYear"></a>
+                        <figcaption class="underTitle_for_Figure">90.00 грн.</figcaption>
+
+                    </figure>
+                    <figure class="sellingItems">
+                        <figcaption class="overTitle_for_Figure">Nokian</figcaption>
+                        <a href="#"><img src="img/middleSellingItems_img2.png" alt="Nokian"></a>
+                        <figcaption class="underTitle_for_Figure">115.00 грн.</figcaption>
+
+                    </figure>
+                    <figure class="sellingItems">
+                        <figcaption class="overTitle_for_Figure">Hankook</figcaption>
+                        <a href="#"><img src="img/middleSellingItems_img3.png" alt="Hankook"></a>
+                        <figcaption class="underTitle_for_Figure">393.00 грн.</figcaption>
+
+                    </figure>
+
+                </div>
+                <div class="Clear"></div>
+                <div class="sellingItems_row2">
+                    <figure class="sellingItems">
+                        <figcaption class="overTitle_for_Figure">Goodyear</figcaption>
+                        <a href="#"><img src="img/middleSellingItems_img1.png" alt="GoodYear"></a>
+                        <figcaption class="underTitle_for_Figure">90.00 грн.</figcaption>
+
+                    </figure>
+                    <figure class="sellingItems">
+                        <figcaption class="overTitle_for_Figure">Nokian</figcaption>
+                        <a href="#"><img src="img/middleSellingItems_img2.png" alt="Nokian"></a>
+                        <figcaption class="underTitle_for_Figure">115.00 грн.</figcaption>
+
+                    </figure>
+                    <figure class="sellingItems">
+                        <figcaption class="overTitle_for_Figure">Hankook</figcaption>
+                        <a href="#"><img src="img/middleSellingItems_img3.png" alt="Hankook"></a>
+                        <figcaption class="underTitle_for_Figure">393.00 грн.</figcaption>
+
+                    </figure>
+
+                </div>
+
+
+            </div>
+            <div class="rightSide_menu">
+                <img src="img/rightSideMenu_img1.png" alt="DISCS" class="Side_Menu_mainTitle">
+                <ul>
+                    <p class="rightSide_Menu_Titles"><img src="img/leftSideMenu_img2.png" alt="WHEELS">Шины</p>
+                    <li>
+                        <div>
+                            <label>
+    <input type="checkbox" name="Wheel">
+    Avon Tyres
+    </label>
+                        </div>
+
+                        <div>
+                            <label>
+        <input type="checkbox" name="Wheel">
+        Dunlop
+      </label>
+                        </div>
+
+                        <div>
+                            <label>
+    <input type="checkbox" name="Wheel">
+    TOYO
+    </label>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <p class="rightSide_Menu_Titles"><img src="img/leftSideMenu_img2.png" alt="DISCS">Диски</p>
+                    <li>
+                        <div>
+                            <label>
+    <input type="checkbox" name="Disc">
+    KMC
+    </label>
+                        </div>
+
+                        <div>
+                            <label>
+        <input type="checkbox" name="Disc">
+        LORENZO
+      </label>
+                        </div>
+
+                        <div>
+                            <label>
+    <input type="checkbox" name="Disc">
+    DIAMO
+    </label>
+                        </div>
+                    </li>
+                </ul>
+
+                <input type="button" value="Выбрать" class="leftSide_menu_button">
+            </div>
+
+        </div>
+        <div class="Clear"></div>
+    <div class="Footer">
+    <a href="#">О компанни  |</a>
+    <a href="#">Доставка  |</a>
+    <a href="#">Статьи  |</a>
+    <a href="#">Контакты </a>
+
+    </div>
+    </div>
+
 </body>
+
 </html>
