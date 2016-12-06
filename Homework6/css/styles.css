@@ -20,16 +20,17 @@ a {
     text-decoration: underline;
 }
 
-.Clear {
-    clear: both;
-}
-
 @media screen and (min-width: 100px) and (max-width: 1100px) {
     .wrapperFor_navigationMenu_navigationMenu_form {
         display: none;
     }
 }
 
+.Autorization {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
 
 /* HEADER */
 
@@ -37,7 +38,6 @@ a {
     width: 100%;
     max-width: 100%;
     box-sizing: content-box;
-    height: 10%;
     overflow: hidden;
     position: relative;
 }
@@ -150,6 +150,7 @@ a {
     width: 912px;
     max-width: 100%;
     margin: auto;
+    overflow: hidden;
 }
 
 .wrapper_forFirstHeadForm {
@@ -353,7 +354,9 @@ a {
 /*LEFT SIDE MENU*/
 
 .rightSide_menu {
-    float: right;
+  padding-left: 0.5em;
+    float: left;
+    overflow: hidden;
 }
 
 .rightSide_Menu_Titles {
@@ -409,6 +412,7 @@ a {
 /* FOOTER */
 
 .Footer {
+  clear: both;
   margin: auto;
   margin-top: 2em;
   padding-top: 1em;
@@ -430,3 +434,112 @@ a {
 .Footer a:hover {
   color: #4d9fbd;
 }
+
+
+/* FORM */
+
+/*.Autorization a:active {
+
+}
+
+.backgroundImageContainer form {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40%;
+    height: 90%;
+    max-height: 100%;
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+.backgroundImageContainer p {
+    line-height: 55px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.backgroundImageContainer form .backgroundImageContainer-textArea {
+    background-color: #0f0f0f;
+    display: block;
+    margin: 3% auto;
+    width: 50%;
+    line-height: 30px;
+    border: none;
+    color: #fff;
+}
+
+.backgroundImageContainer form .backgroundImageContainer-textArea:hover {
+    box-shadow: 0px 0px 5px 4px rgba(70, 130, 170, 0.79);
+    background-color: #1b5288;
+}
+
+.backgroundImageContainer-Wrapper_for_facebook_ouLine {
+    padding: 3%;
+}
+
+.backgroundImageContainer-faceBookButton {
+    margin: auto;
+    box-sizing: content-box;
+    padding-right: 45px;
+    height: 35px;
+    background: none;
+    border: none;
+    display: block;
+    background-size: 35px 35px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    color: white;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 50%;
+    border-bottom: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    text-shadow: rgba(0, 0, 0, .5) -1px -1px 0;
+    border-color: #2d5073;
+    background-color: #3b5998;
+    background-image: url(../img/facebook-icon.png);
+    overflow: hidden;
+}
+
+.backgroundImageContainer .ouLine {
+    padding: 2%;
+    text-align: center;
+    color: #999999;
+    font-family: sans-serif;
+}
+
+.backgroundImageContainer .ouLine img {
+    max-width: 100%;
+}
+
+input[placeholder] {
+    padding-left: 2%;
+}
+
+.backgroundImageContainer-CheckBox {
+    text-align: center;
+    color: #cccccc;
+    font-family: sans-serif;
+}
+
+.backgroundImageContainer-Button_CreatemyAccount {
+    padding: 10px;
+    display: block;
+    margin: 3% auto;
+    box-sizing: content-box;
+    background-color: #4eabda;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+} */

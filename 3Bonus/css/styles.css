@@ -1,58 +1,59 @@
 BODY {
     background-image: url('../img/bgimg.jpg');
-    background-repeat: no-repeat;
     background-size: 100%;
 }
 
+@media (max-width: 900px) {
+    .ContentImages {
+      width: 35%;
+    }
+}
+
+@media (max-width: 500px) {
+  .ContentImages {
+    width: 96%;
+  }
+}
 
 
 /* HEADER */
 
 .wrapper-header {
-  width: 100%;
-  overflow: hidden;
-  box-sizing: border-box;
-  padding: 3%;
+    overflow: hidden;
+    box-sizing: content-box;
+    padding: 3%;
+    position: relative;
 }
 
-.wrapper-header-logo , .wrapper-header-contacts {
-  width: 50%;
-  float: left;
+.wrapper-header-logo, .wrapper-header-contacts {
+    width: 50%;
+    float: left;
 }
 
 .wrapper-header-contacts {
-  color: white;
-  text-align: right;
+    color: white;
+    text-align: right;
 }
 
 .wrapper-header-logo img {
-  max-width: 100%;
+    max-width: 100%;
 }
-
 
 
 /* CONTENT */
 
 .Wrapper {
-    margin-left: 12%;
-    float: left;
-    display: block;
-}
-.Wrapper:after {
-  content: ".";
-	visibility: hidden;
-	display: block;
-	height: 0;
-	clear: both;
+    overflow: hidden;
+    position: relative;
 }
 
 .ContentImages {
-    width: 22%;
-    margin-right: 10%;
-    margin-bottom: 3%;
-    display: inline-block;
+    padding: 3em;
+    width: 25%;
+    display: block;
     text-align: center;
-    clear: both;
+    float: left;
+
 }
 
 .Wrapper figcaption {
@@ -63,8 +64,10 @@ BODY {
 /*FOOTER*/
 
 .Bottom {
-  text-align: center;
-  margin-top: 42%;
-  margin-bottom: 3%;
-  color: #fff;
+    display: block;
+    clear: both;
+    text-align: center;
+    margin-top: 1.7em;
+    margin-bottom: 3%;
+    color: #fff;
 }

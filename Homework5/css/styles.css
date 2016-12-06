@@ -9,6 +9,7 @@ body {
 
 .backgroundTopMenu {
     width: 100%;
+    overflow: hidden;
 }
 
 .backgroundTopMenu ul {
@@ -52,10 +53,8 @@ body {
 .backgroundImageContainer {
     position: absolute;
     background: url(../img/backgroundImageContainer.png);
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-top: 3%;
     max-height: 100%;
     height: 100%;
     width: 100%;
