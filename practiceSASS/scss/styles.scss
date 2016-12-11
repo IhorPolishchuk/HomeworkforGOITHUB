@@ -50,6 +50,8 @@ $main_font: 'Fjalla One', sans-serif;
         text-decoration: none;
         font-family: $main_font;
         text-shadow: 2px 2px 3px rgba(48,48,48, 1);
+        &:hover {
+        }
     }
 
     .headWrapper-menu__items:hover {
@@ -63,13 +65,13 @@ $main_font: 'Fjalla One', sans-serif;
 }
 
 .Wrapper-slideMenu {
-    overflow: hidden;
     position: relative;
     max-width: 100%;
     max-height: 100%;
     background-color: rgba(37, 29, 29, 0.3);
 
     .slideMenu__content {
+        overflow: hidden;
         margin: auto;
         max-width: 75%;
         max-height: 100%;
@@ -101,10 +103,10 @@ $main_font: 'Fjalla One', sans-serif;
     max-height: 100%;
     overflow: hidden;
     background: linear-gradient(to bottom, #5d446b 3%,#42304b 73%);
-    overflow: hidden;
 }
 
 .info-block {
+    overflow: hidden;
     max-width: 75%;
     margin: auto;
     box-sizing: content-box;

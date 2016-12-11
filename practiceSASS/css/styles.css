@@ -38,11 +38,13 @@
     padding: 5em; }
 
 .Wrapper-slideMenu {
-  overflow: hidden;
   position: relative;
   max-width: 100%;
   max-height: 100%;
   background-color: rgba(37, 29, 29, 0.3); }
+.slideMenu__content {
+  overflow: hidden;
+}
   .Wrapper-slideMenu .slideMenu__content {
     margin: auto;
     max-width: 75%;
@@ -66,9 +68,10 @@
   max-height: 100%;
   overflow: hidden;
   background: linear-gradient(to bottom, #5d446b 3%, #42304b 73%);
-  overflow: hidden; }
+   }
 
 .info-block {
+  overflow: hidden;
   max-width: 75%;
   margin: auto;
   box-sizing: content-box; }

@@ -311,8 +311,8 @@ a {
 
 .sellingItems_row1 {
     max-width: 100%;
-    padding: 1em;
-    padding-top: 1em;
+    padding: 0.5em;
+    overflow: hidden;
 }
 
 .sellingItems {
@@ -336,8 +336,8 @@ a {
 
 .sellingItems_row2 {
     max-width: 100%;
-    padding: 1em;
-    padding-top: 1em;
+    padding: 0.5em;
+    overflow: hidden;
 }
 
 .middleSide_sellingItems a {
